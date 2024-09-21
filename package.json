@@ -1,0 +1,19 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matheus Correa",
+  "scripts": {
+    "dev": "ts-node src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "express": "^4.21.0",
+    "prisma": "^5.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

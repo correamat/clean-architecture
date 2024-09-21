@@ -1,0 +1,22 @@
+###
+GET http://localhost:8000/products
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+Authorization: "Bearer ds4a56d4s6af4"
+
+{
+    "name": "Curso do Zero a Programador",
+    "price": 959.59
+}
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+Authorization: "Bearer ds4a56d4s6af4"
+
+{
+    "name": "Consultoria de engenharia de software",
+    "price": 1459.59
+}
